@@ -1,11 +1,11 @@
 import os
 from dotenv import load_dotenv
 
-from app.services.postgresql.config.handler import DBConnectionHandler
+from app.services.database.config.handler import DBConnectionHandler
 
 from app.domain.profit_checker import ProfitThresholdChecker
 from app.services.binance.client import BinanceClient
-from app.services.postgresql.repo.history import HistoryRepository
+from app.services.database.repo.history import HistoryRepository
 from app.logs.logger import init_logger
 
 logger = init_logger()

@@ -3,7 +3,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 from datetime import datetime, timezone
-from app.services.postgresql.models.history import History
+from app.services.database.models.history import History
 from sqlalchemy import text
 
 

@@ -2,7 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 from app.services.binance.client import BinanceClient
-from app.services.postgresql.repo.history import HistoryRepository
+from app.services.database.repo.history import HistoryRepository
 
 
 class ProfitThresholdChecker:
