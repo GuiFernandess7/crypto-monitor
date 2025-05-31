@@ -54,7 +54,7 @@ cryptobot/
 │   ├── logs/           # Application logs
 │   ├── services/       # External services integration
 │   │   ├── binance/    # Binance API integration
-│   │   └── postgresql/ # Database operations
+│   │   └── database/   # SQLite Database operations
 │   └── main.py         # Application entry point
 ├── requirements.txt    # Project dependencies
 └── README.md          # This file
