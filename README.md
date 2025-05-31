@@ -1,23 +1,23 @@
-# Cryptocurrency Monitor
+# 🚀 Cryptocurrency Monitor
 
 A Python application that monitors cryptocurrency balances and values using the Binance API. The application tracks the value of specified cryptocurrencies against fiat currencies and alerts when predefined thresholds are reached.
 
-## Features
+## ✨ Features
 
-- Real-time cryptocurrency balance monitoring through Binance API
-- Support for multiple cryptocurrencies and fiat pairs (e.g., SOL/BRL, BTC/USD)
-- Threshold-based profit monitoring
-- Historical data storage in SQLite database
-- Initial balance tracking and comparison
-- Configurable profit thresholds
+- 📊 Real-time cryptocurrency balance monitoring through Binance API
+- 💱 Support for multiple cryptocurrencies and fiat pairs (e.g., SOL/BRL, BTC/USD)
+- 📈 Threshold-based profit monitoring
+- 💾 Historical data storage in SQLite database
+- 📝 Initial balance tracking and comparison
+- ⚙️ Configurable profit thresholds
 
-## Prerequisites
+## 🔧 Prerequisites
 
-- Python 3.x
-- Binance account with API access
-- API key and secret from Binance
+- 🐍 Python 3.x
+- 🔑 Binance account with API access
+- 🔐 API key and secret from Binance
 
-## Installation
+## 📥 Installation
 
 1. Clone the repository:
 ```bash
@@ -28,6 +28,7 @@ cd cryptobot
 2. Create and activate a virtual environment:
 ```bash
 python -m venv .venv
+pip install -r requirements.txt
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
@@ -42,7 +43,7 @@ API_KEY=your_api_key_here
 API_SECRET=your_api_secret_here
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 cryptobot/
@@ -59,7 +60,7 @@ cryptobot/
 └── README.md          # This file
 ```
 
-## Usage
+## 🚀 Usage
 
 1. Configure your desired cryptocurrency and threshold in `main.py`:
 ```python
@@ -81,41 +82,41 @@ python -m app.main
 
 6. The application will monitor the cryptocurrency value and alert when the threshold is reached.
 
-## Features in Detail
+## 🔍 Features in Detail
 
-### Balance Monitoring
-- Tracks both free and total balances of specified cryptocurrencies
-- Supports multiple cryptocurrency pairs
-- Real-time price updates through Binance API
+### 💰 Balance Monitoring
+- 📊 Tracks both free and total balances of specified cryptocurrencies
+- 🔄 Supports multiple cryptocurrency pairs
+- ⚡ Real-time price updates through Binance API
 
-### Profit Tracking
-- Stores initial balance in SQLite database
-- Compares current value against initial investment
-- Alerts when profit threshold is reached
+### 📈 Profit Tracking
+- 💾 Stores initial balance in SQLite database
+- 📊 Compares current value against initial investment
+- 🔔 Alerts when profit threshold is reached
 
-### Error Handling
-- Comprehensive error handling for API calls
-- Logging system for debugging and monitoring
-- Graceful handling of network issues
+### 🛡️ Error Handling
+- ⚠️ Comprehensive error handling for API calls
+- 📝 Logging system for debugging and monitoring
+- 🔄 Graceful handling of network issues
 
-## Security
+## 🔒 Security
 
-- API credentials are stored in environment variables
-- No hardcoded sensitive information
-- Secure API communication through Binance's official client
+- 🔑 API credentials are stored in environment variables
+- 🚫 No hardcoded sensitive information
+- 🔐 Secure API communication through Binance's official client
 
-## Contributing
+## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+1. 🍴 Fork the repository
+2. 🌿 Create a feature branch
+3. 💾 Commit your changes
+4. 📤 Push to the branch
+5. 🔄 Create a Pull Request
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This application is for educational purposes only. Cryptocurrency trading involves risk, and you should never invest more than you can afford to lose.
