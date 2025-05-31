@@ -113,10 +113,3 @@ python -m app.main
 4. 📤 Push to the branch
 5. 🔄 Create a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## ⚠️ Disclaimer
-
-This application is for educational purposes only. Cryptocurrency trading involves risk, and you should never invest more than you can afford to lose.
